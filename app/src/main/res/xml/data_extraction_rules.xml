@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 목적: 차량 안내 앱의 백업 및 기기 전송 제외 / 작성자: 송우진 / 2026-11-13: 초안 -->
+<data-extraction-rules>
+    <cloud-backup><exclude domain="root" path="." /><exclude domain="device_root" path="." /></cloud-backup>
+    <device-transfer><exclude domain="root" path="." /><exclude domain="device_root" path="." /></device-transfer>
+</data-extraction-rules>

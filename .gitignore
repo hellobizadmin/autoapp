@@ -1,0 +1,7 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+/bin/
+/out/
+/.idea/caches/
