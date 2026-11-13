@@ -5,3 +5,9 @@ local.properties
 /bin/
 /out/
 /.idea/caches/
+
+# Local release signing key and credentials
+/.signing/
+
+# APK incremental-install signature sidecars
+/apk/*.idsig
